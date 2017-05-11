@@ -1,6 +1,5 @@
 # Pig Dice Game
 
-Click to view [Pig Dice game on github]
 
 Author: Abdirahim Mohamud
 
