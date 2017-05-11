@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <link href="css/styles.css" rel="stylesheet">
+  <title>Pig Dice</title>
+</head>
+<body>
+  <div class="jumbotron" style="background: url('img/whitedice.jpg')">
+    <div class="container">
+      <div class="image" >
+        <h1>Pig Dice</h1>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row" id="main">
+      <div class="wrapper">
+        <div class="col-md-4">
+          <h2 id="player1">Player 1</h2>
+          <h3>Score: <span id="player1score"></span></h3>
+          <h3>Wins: <span id="player1wins"></span></h3>
+          <div id="player1buttons">
+            <button id="roll" class="btn btn-large btn-danger">roll dice</button>
+            <button id="hold" class="btn btn-large btn-success">hold</button>
+          </div>
+        </div>
+        <div class="col-md-4" style="background: #DDDEDF">
+          <h2>Roll: <span id = "dice"></span></h2>
+          <span id="displaydice"></span>
+          <h3>Current score: <span id="current"></span></h3>
+        </div>
+        <div class="col-md-4">
+          <h2 id="player2">Player 2</h2>
+          <h3>Score: <span id="player2score"></span></h3>
+          <h3>Wins: <span id="player2wins"></span></h3>
+          <div id="player2buttons">
+            <button id="roll" class="btn btn-large btn-danger">roll dice</button>
+            <button id="hold" class="btn btn-large btn-success">hold</button>
+          </div>
+        </div>
+        <div class="quick-guidelines">
+
+          <h4>Player one roll: "z"</h4>
+          <h4>Player two roll: "/"</h4>
+          <h4>Hold:            Space</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

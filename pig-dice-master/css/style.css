@@ -25,14 +25,14 @@ body {
   padding-top: 15em;
 }
 body {
-  background-color:black;
+  background-color: blue;
 }
 .jumbotron {
   background-color: red;
 }
 .wrapper {
   width: 1000px;
-  height: 780px;
+  height: 910px;
   margin-bottom: 30px;
   border: 2px solid black;
   background-color: white;
@@ -46,16 +46,4 @@ body {
   transition-duration: 1s;
   transition-timing-function: linear;
 
-}
-.foot{
-  text-align:center;
-  color: black;
-}
-.lol{
-  color: black;
-}
-.line {
-  width: 820px;
-  margin: 0 auto;
-  border-top: 4px solid blue
 }

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <link href="css/style.css" rel="stylesheet">
+  <title>Pig Dice</title>
+</head>
+<body>
+  <div class="jumbotron" style="background: url('img/zas.gif')">
+    <div class="container">
+      <div class="image" >
+        <h1>ONLINE DICE ROLLING</h1>
+
+      </div>
+    </div>
+  </div>
+ <div class="container">
+    <div class="row" id="main">
+      <div class="wrapper">
+        <div class="col-md-4">
+          <h2 id="player1">Player 1</h2>
+          <h3>Score: <span id="player1score"></span></h3>
+          <h3>Wins: <span id="player1wins"></span></h3>
+          <div id="player1buttons">
+            <button id="roll" class="btn btn-large btn-danger">roll dice</button>
+            <button id="hold" class="btn btn-large btn-success">hold</button>
+          </div>
+        </div>
+        <div class="col-md-4" style="background: #DDDEDF">
+          <h2>Roll: <span id = "dice"></span></h2>
+          <span id="displaydice"></span>
+          <h3>Current score: <span id="current"></span></h3>
+        </div>
+        <div class="col-md-4">
+          <h2 id="player2">Player 2</h2>
+          <h3>Score: <span id="player2score"></span></h3>
+          <h3>Wins: <span id="player2wins"></span></h3>
+          <div id="player2buttons">
+            <button id="roll" class="btn btn-large btn-danger">roll dice</button>
+            <button id="hold" class="btn btn-large btn-success">hold</button>
+          </div>
+        </div>
+        <div class="quick-guidelines">
+
+          <h4>Player one roll: "z"</h4>
+          <h4>Player two roll: "/"</h4>
+          <h4>Hold:Space</h4>
+          <p>Life is fair. We all get the same nine-month shake in the box, and
+             then the dice roll. Some people get a run of sevens. Some people,
+              unfortunately, get snake-eyes. Its just how the world is. </p>
+
+
+              <div class="lol">
+              <h2>*Description*</h2>
+              <p>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":</p>
+
+              <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
+              <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
+              <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
+              <li>The first player to score 100 or more points wins.</li>
+
+              <p>For example, the first player,Garad, begins a turn with a roll of 5. Garad could hold and score 5 points, but chooses to roll again.
+              Garad rolls a 2, and could hold with a turn total of 7 points, but chooses to roll again. Garad rolls a 1, and must end his turn
+              without scoring. The next player, Nasteha, rolls the sequence 4-5-3-5-5, after which she chooses to hold, and adds her turn total of 22 points to her score.</p>
+              </div>
+              <h4>Enjoy The Game</h4>
+               <div class="foot">
+
+
+                  <div class="line"></div>
+                  <footer>
+
+                 <mark><i>Created by: Abdirahim Mohamud</i></mark>
+                  <p>Drop your feedback on any of the social icons below</p>
+                 <p>Contact information:</p>
+
+
+
+               <!-- Add icon library -->
+               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+               <!-- Add font awesome icons -->
+               <a href="https://mail.google.com/mail/u/0/" target="_blank"><i class="fa fa-reply-all" aria-hidden="true"></i>
+               <a href="https://mail.google.com/mail/u/0/" target="_blank"> <i class="fa fa-envelope" aria-hidden="true"></i>
+               <a href="https://plus.google.com/u/0/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i>
+
+
+               <a href="https://www.globe.com.ph/enrolled-accounts?jsid=01BDC7722D87474080A1876E17403111.41490535721790" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a>
+               <a href="https://www.facebook.com/profile.php?id=100014470204660" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                            <p>&copy; 2017 <p>
+
+                 </footer>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+ </div>
+
+</body>
+</html>
